@@ -1,0 +1,57 @@
+name: Stock Update Request
+description: Submit a request to update stock details.
+labels: [stock-update]
+body:
+  - type: input
+    id: campaign_name
+    attributes:
+      label: Campaign Name
+      description: Enter the name of the campaign.
+      placeholder: e.g., Bednet Distribution 2025
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Your Name
+      description: Enter your full name.
+      placeholder: e.g., John Doe
+    validations:
+      required: true
+
+  - type: input
+    id: username
+    attributes:
+      label: Username
+      description: Enter your system username.
+      placeholder: e.g., jdoe123
+    validations:
+      required: true
+
+  - type: input
+    id: transaction_date
+    attributes:
+      label: Transaction Date
+      description: Enter the date of the stock update in DD-MM-YYYY format.
+      placeholder: e.g., 22-07-2024
+    validations:
+      required: true
+
+  - type: input
+    id: old_quantity
+    attributes:
+      label: Old Quantity
+      description: Enter the current quantity before update.
+      placeholder: e.g., 100
+    validations:
+      required: true
+
+  - type: input
+    id: new_quantity
+    attributes:
+      label: New Quantity
+      description: Enter the updated quantity.
+      placeholder: e.g., 120
+    validations:
+      required: true

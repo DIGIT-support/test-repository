@@ -1,5 +1,5 @@
-title: "[Stock Update Request]"
-labels: "[stock-update]"
+title: "Stock Update Request"
+labels: "Raise a request to update existing stock request"
 body:
   - type: input
     id: campaign_name

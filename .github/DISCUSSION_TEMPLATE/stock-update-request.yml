@@ -1,5 +1,4 @@
-name: "[Stock Update Request]"
-description: Submit a request to update stock details.
+title: "[Stock Update Request]"
 labels: "[stock-update]"
 body:
   - type: input

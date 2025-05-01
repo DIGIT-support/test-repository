@@ -1,5 +1,4 @@
-name: "Stock Update Request Form"
-description: "Raise a request to update existing stock records."
+title: "Stock Update Request Form"
 body:
   - type: input
     id: campaign_name

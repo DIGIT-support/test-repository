@@ -1,5 +1,9 @@
-title: "Stock Update Request Form"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Raise a request to update existing stock records by filling out this form
+        
   - type: input
     id: campaign_name
     attributes:
